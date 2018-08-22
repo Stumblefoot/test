@@ -122,3 +122,26 @@ notepad foo.txt
 git rebase master
 git rebase master --continue
 git rebase master --show-current-patch
+git rebase master
+git rebase master --continue
+git rebase master --show-current-patch
+git branch temp
+git checkout temp
+git log
+git diff master temp
+git diff origin/master temp
+git branch -f master temp
+git  checkout master
+git branch -d temp
+git add .
+git status
+git rebase --continue
+git checkout master
+git merge fix1
+git branch -d fix1
+git log -3
+ssh-keygen -t rsa -b 4096 -C "stumblefoot12@gmail.com"
+c:
+cd C:\Users\Joshua/.ssh
+dir
+type id_rsa.pub
