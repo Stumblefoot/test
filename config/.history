@@ -1,0 +1,124 @@
+git
+git config --global user.name "Joshua Back"
+git config --global user.email stumblefoot12@gmail.com
+git config -l
+e:
+d:
+mkdir gitex
+cd gitex
+git init
+cd .git
+cd ..
+git commit -m "new files added" -m "this file is used to let the user know about all the new hello world options that are available"
+git commit -m "Initial commit"
+git add forgotten file
+git notepad foo.txt
+git add -A
+git commit -m "Provided more info in foo"
+notepad fee.txt
+git add fee.txt
+git commit -m "Added to make more robust"
+git rm fee.txt
+git commit -m "Decided it didn't add much"
+git reset foo.txt
+git checkout foo.txt
+git commit -a -m "Changed a word" -m "this should make it easier to follow"
+git show commitID
+git show 875c2908c526d4b014e72bd5275464e1707eb380
+git diff HEAD foo.txt
+git diff --cached foo.txt
+git commit -a -m "Enhancements"
+git reset --hard 875c2908c526d4b014e72bd5275464e1707eb380
+git log -n 5
+gitk
+git branch newfeature
+git add .
+git commit -m "Expanding helloworld app"
+dir
+git log -n 3
+git log -n 6
+git log -n 2
+git log -n 4
+git commit -a -m "New feature to app"
+git checkout newfeature
+git copy foo.txt
+git checkout master foo.txt
+git commit -m "updated from master"
+git merge newfeature
+git branch -d newfeature
+git branch
+notpad foo.txt
+commit -a -m "Changed to YourFirstName YourLastName"
+git checkout -b quickfix
+git commit -a -m "Changed to you people"
+git merge quickfix
+git commit -a -m "More stuff"
+git checkout newfeature2
+git commit -a -m "Changed to Joshua Back"
+git log
+git reset 0fddb7c400153d712a48e06df809063a612a49cf
+type foo.txt
+git checkout -b newfeature2
+git merge newfeature2
+notepad foo.txt
+git add foo.txt
+git commit -m "Merge conflicts resolved"
+git branch -d newfeature2
+git branch -d quickfix
+git branch newfeature3
+notepad bar.txt
+git commit -a -m "new bar in town"
+git checkout newfeature3
+git commit -a -m "Really don't need any more"
+git checkout master
+git merge newfeature3
+git rm bar.txt
+git add bar.txt
+git commit -m "Removed bar.txt via conflict resolution"
+git status
+git log -3
+git init
+cd gitex
+git merge quickfix
+git commit -a -m "More stuff"
+git checkout newfeature2
+git commit -a -m "Changed to Joshua Back"
+git log
+git reset 0fddb7c400153d712a48e06df809063a612a49cf
+type foo.txt
+git checkout -b newfeature2
+git merge newfeature2
+git commit -m "Merge conflicts resolved"
+git branch -d newfeature2
+git branch -d quickfix
+git branch newfeature3
+notepad bar.txt
+git commit -a -m "new bar in town"
+git checkout newfeature3
+git commit -a -m "Really don't need any more"
+git merge newfeature3
+git rm bar.txt
+git add bar.txt
+git commit -m "Removed bar.txt via conflict resolution"
+git log -3
+git init
+cd gitex
+git add foo.txt
+git commit -m "New foo in master"
+git checkout -b fix1
+git commit -a -m "fixed foo in fix1"
+rebase master
+git status
+git rebase
+git checkout -b fix2
+git commit -a -m "fixed foo in fix2"
+git checkout master
+git merge fix2
+git branch -d fix2
+git add .
+git checkout fix1
+git rebase master --abort
+notepad foo.txt
+git rebase master
+git rebase master --continue
+git rebase master --show-current-patch
